@@ -1,0 +1,10 @@
+:root{
+    --cor-principal: #B4C044;
+    --cor-secundaria:#F9F9F9;
+    --cor-do-botão: #B4C044;
+    --cor-de-fundo: #000000;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
