@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+}
+.container{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+:root{
+    --cor-principal: #B4C044;
+    --cor-secundaria:#000000;
+    --cor-do-botao: #222222;
+    --cor-de-fundo: #000000;
+}
+.body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+}
+
+.principal{
+    background-image: url(img/fundo\ carro\ elétrico.png);
+}
+.container-botao{
+    background-color: var(--cor-do-botao);
+    border-radius: 20px;
+    width: 50%;
+    padding: 2em;
+    margin-left: 150px;
+    color: var(--cor-principal);
+    display: block;
+    text-decoration: none;
+}
+.container-titulo{
+    color: white;
+    padding: 40px 0px 40px 40px;
+}
+.container-aviso{
+    margin-left: 150px;
+    color: rgb(206, 206, 206);
+}
+.secundario-imagem{
+    width: 30%;
+    padding: 80px 0px 40px 40px;
+}
+.secundario{
+    align-items: center;
+    margin: 0 1em;
+}
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--cor-principal);
+    margin-bottom: 0.1em;
+}
+.descricao-texto{
+    color: var(--cor-secundaria);
+}
+
+
+.separar{
+    padding: 50px;
+}
+
+.container-botao{
+    display:block;
+    margin: 5px;
+}
+
+.secundario-imagem{
+    width: 70%;
+    padding: 50px;
+}
